@@ -36,6 +36,10 @@ public class TestDemoApplication implements CommandLineRunner {
         log.info("查询结束");
     }
 
+    /**
+     * 对于查询函数的结果，只需要调用对应的get方法即可获取对应值
+     */
+
     private void searchAllInformation(){
         User user = new User();
         user.setName("零落");
